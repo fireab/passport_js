@@ -10,6 +10,7 @@ const session = require("express-session");
 const initializePassport = require("./passport-config");
 const passport = require("passport");
 const methodOverride = require("method-override");
+const morgan = require("morgan");
 
 initializePassport(
   passport,
